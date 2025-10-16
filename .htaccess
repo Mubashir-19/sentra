@@ -1,0 +1,24 @@
+
+RewriteOptions inherit
+# 0) Kill content negotiation that breaks pretty URLs
+Options -MultiViews
+
+# 1) Make sure Apache rewrite is on
+RewriteEngine On
+RewriteBase /
+
+# 2) Default index file
+DirectoryIndex index.html
+
+# 3) Redirect any /something/index or /something/index.html → /something/
+RewriteRule ^(.*/)?index(?:\.html?)?$ /$1 [R=301,L]
+
+# 4) Redirect .html URLs to extensionless (avoid loops by checking the original request line)
+RewriteCond %{THE_REQUEST} \s/([^\s]+)\.html(?:[\s?]) [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# 5) Serve extensionless URLs if a matching .html file exists
+#    /about  => /about.html   (internal rewrite, no redirect)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]

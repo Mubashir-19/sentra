@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.sentra.capital/</loc>
+    <image:image>
+      <image:loc>https://www.sentra.capital/wp-content/uploads/2021/06/sentralogo.png</image:loc>
+      <image:title>Sentra Capital Asset Management Logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.sentra.capital/wp-content/uploads/2021/07/contact-us.jpg</image:loc>
+      <image:title>Contact Us Banner</image:title>
+    </image:image>
+    <!-- Favicons -->
+    <image:image>
+      <image:loc>https://www.sentra.capital/wp-content/favicon.icon</image:loc>
+      <image:title>Sentra Capital Favicon</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.sentra.capital/wp-content/apple-touch-icon.png</image:loc>
+      <image:title>Sentra Capital Apple Touch Icon</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.sentra.capital/wp-content/favicon-32x32.png</image:loc>
+      <image:title>Sentra Capital Favicon 32x32</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.sentra.capital/wp-content/favicon-16x16.png</image:loc>
+      <image:title>Sentra Capital Favicon 16x16</image:title>
+    </image:image>
+  </url>
+
+  <!-- Contact Us -->
+  <url>
+    <loc>https://www.sentra.capital/contact-us.html</loc>
+    <image:image>
+      <image:loc>https://www.sentra.capital/wp-content/uploads/2021/07/contact-us.jpg</image:loc>
+      <image:title>Sentra Capital Contact Us Page Banner</image:title>
+    </image:image>
+  </url>
+
+  <!-- Offshore Company Formation -->
+  <url>
+    <loc>https://www.sentra.capital/offshore-company-formation.html</loc>
+    <image:image>
+      <image:loc>https://www.sentra.capital/wp-content/themes/fairstone/img/purple-background-02.jpg</image:loc>
+      <image:title>Sentra Capital Offshore Services Banner</image:title>
+    </image:image>
+  </url>
+
+  <!-- Bonds & Fixed Income -->
+  <url>
+    <loc>https://www.sentra.capital/bonds-fixed-income.html</loc>
+    <image:image>
+      <image:loc>https://www.sentra.capital/wp-content/themes/fairstone/img/phone-green.svg</image:loc>
+      <image:title>Sentra Capital Fixed Income Bonds Icon</image:title>
+    </image:image>
+  </url>
+
+</urlset>
