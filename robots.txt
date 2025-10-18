@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.kenochassetmanagement.com/sitemap.xml
+Sitemap: https://www.kenochassetmanagement.com/sitemap-images.xml
